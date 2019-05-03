@@ -31,7 +31,7 @@ class App {
         this.nav.forEach(x => x.classList.remove("active"));
         e.target.classList.add("active");
 
-        this.loadingMehotd[target]();
+        this.loadingMethod[target]();
     }
 
     //펀드 등록페이지
