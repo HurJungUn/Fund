@@ -11,7 +11,7 @@ class App {
 
         this.articleList = document.querySelectorAll("article");
 
-        this.loadingMehotd = {
+        this.loadingMethod = {
             "list" : this.loadingList.bind(this),
             "register" : this.loadingRegister.bind(this),
             "investor" : this.loadingInvestor.bind(this)
